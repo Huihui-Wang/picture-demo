@@ -14,10 +14,7 @@ const XHSPost = () => {
             subtitle: "首期播客：解开「精神熵」的内耗枷锁",
             tag: "心理成长 / 效率提升"
         },
-            
-        
-       
-    ];
+     ];
 
     const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
     const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
